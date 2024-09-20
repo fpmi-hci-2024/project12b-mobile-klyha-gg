@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7715DDC32C9E15C4000B0245 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7715DDC22C9E15C4000B0245 /* LoadingView.swift */; };
 		774D36212C9465B40047046B /* LauchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D36202C9465B40047046B /* LauchScreenView.swift */; };
 		774D36232C946CF70047046B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D36222C946CF70047046B /* CustomButton.swift */; };
 		776885932C9460CA00CC7167 /* SocialNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776885922C9460CA00CC7167 /* SocialNetworkApp.swift */; };
-		776885952C9460CA00CC7167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776885942C9460CA00CC7167 /* ContentView.swift */; };
 		776885972C9460CC00CC7167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776885962C9460CC00CC7167 /* Assets.xcassets */; };
 		7768859A2C9460CC00CC7167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776885992C9460CC00CC7167 /* Preview Assets.xcassets */; };
-		7768859C2C9460CC00CC7167 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7768859B2C9460CC00CC7167 /* Persistence.swift */; };
-		7768859F2C9460CC00CC7167 /* SocialNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7768859D2C9460CC00CC7167 /* SocialNetwork.xcdatamodeld */; };
-		77D0B5042C9B21EF00FD2F30 /* LaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0B5032C9B21EF00FD2F30 /* LaunchAnimation.swift */; };
+		77D0B5042C9B21EF00FD2F30 /* LoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0B5032C9B21EF00FD2F30 /* LoaderManager.swift */; };
 		77DA45B82C9A1F8900D8DED5 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA45B72C9A1F8900D8DED5 /* TermsOfServiceView.swift */; };
 		77DA45BA2C9A1FF700D8DED5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA45B92C9A1FF700D8DED5 /* TitleView.swift */; };
 		77DA45BC2C9A203F00D8DED5 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA45BB2C9A203F00D8DED5 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7715DDC22C9E15C4000B0245 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		774D36202C9465B40047046B /* LauchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchScreenView.swift; sourceTree = "<group>"; };
 		774D36222C946CF70047046B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		7768858F2C9460CA00CC7167 /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776885922C9460CA00CC7167 /* SocialNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkApp.swift; sourceTree = "<group>"; };
-		776885942C9460CA00CC7167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		776885962C9460CC00CC7167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		776885992C9460CC00CC7167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7768859B2C9460CC00CC7167 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		7768859E2C9460CC00CC7167 /* SocialNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialNetwork.xcdatamodel; sourceTree = "<group>"; };
-		77D0B5032C9B21EF00FD2F30 /* LaunchAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimation.swift; sourceTree = "<group>"; };
+		77D0B5032C9B21EF00FD2F30 /* LoaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderManager.swift; sourceTree = "<group>"; };
 		77DA45B72C9A1F8900D8DED5 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
 		77DA45B92C9A1FF700D8DED5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		77DA45BB2C9A203F00D8DED5 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
@@ -48,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7715DDC12C9E1566000B0245 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				77D0B5032C9B21EF00FD2F30 /* LoaderManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		776885862C9460CA00CC7167 = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +71,10 @@
 		776885912C9460CA00CC7167 /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				7715DDC12C9E1566000B0245 /* Managers */,
 				77DA45BD2C9A216F00D8DED5 /* OnBoardingScreen */,
 				776885922C9460CA00CC7167 /* SocialNetworkApp.swift */,
-				776885942C9460CA00CC7167 /* ContentView.swift */,
 				776885962C9460CC00CC7167 /* Assets.xcassets */,
-				7768859B2C9460CC00CC7167 /* Persistence.swift */,
-				7768859D2C9460CC00CC7167 /* SocialNetwork.xcdatamodeld */,
 				776885982C9460CC00CC7167 /* Preview Content */,
 			);
 			path = SocialNetwork;
@@ -94,7 +96,7 @@
 				77DA45B72C9A1F8900D8DED5 /* TermsOfServiceView.swift */,
 				77DA45B92C9A1FF700D8DED5 /* TitleView.swift */,
 				77DA45BB2C9A203F00D8DED5 /* LogoView.swift */,
-				77D0B5032C9B21EF00FD2F30 /* LaunchAnimation.swift */,
+				7715DDC22C9E15C4000B0245 /* LoadingView.swift */,
 			);
 			path = OnBoardingScreen;
 			sourceTree = "<group>";
@@ -169,15 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7768859C2C9460CC00CC7167 /* Persistence.swift in Sources */,
 				77DA45BC2C9A203F00D8DED5 /* LogoView.swift in Sources */,
 				774D36232C946CF70047046B /* CustomButton.swift in Sources */,
-				776885952C9460CA00CC7167 /* ContentView.swift in Sources */,
+				7715DDC32C9E15C4000B0245 /* LoadingView.swift in Sources */,
 				774D36212C9465B40047046B /* LauchScreenView.swift in Sources */,
 				776885932C9460CA00CC7167 /* SocialNetworkApp.swift in Sources */,
 				77DA45B82C9A1F8900D8DED5 /* TermsOfServiceView.swift in Sources */,
-				77D0B5042C9B21EF00FD2F30 /* LaunchAnimation.swift in Sources */,
-				7768859F2C9460CC00CC7167 /* SocialNetwork.xcdatamodeld in Sources */,
+				77D0B5042C9B21EF00FD2F30 /* LoaderManager.swift in Sources */,
 				77DA45BA2C9A1FF700D8DED5 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,19 +384,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7768859D2C9460CC00CC7167 /* SocialNetwork.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7768859E2C9460CC00CC7167 /* SocialNetwork.xcdatamodel */,
-			);
-			currentVersion = 7768859E2C9460CC00CC7167 /* SocialNetwork.xcdatamodel */;
-			path = SocialNetwork.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 776885872C9460CA00CC7167 /* Project object */;
 }

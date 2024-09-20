@@ -7,14 +7,29 @@
 
 import SwiftUI
 
-@main
-struct SocialNetworkApp: App {
-    let persistenceController = PersistenceController.shared
 
+@main
+struct LoaderDemoApp: App {
+    
+    @StateObject var loaderManager = LoaderManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
+            ZStack {
+                LauchScreenView()
+                    .environmentObject(loaderManager)
+                
+                switch loaderManager.loadingState {
+                case .hidden:
+                    EmptyView()
+                case .standard(let message):
+                    LoadingView(message: message)
+                case .glassed:
+                    LoadingViewGlassed()
+                }
+            }
+            .animation(.default, value: loaderManager.loadingState)
         }
     }
 }
